@@ -15,14 +15,15 @@ const Header = () => {
                 <Typography variant='h6' className={classes.title}>
                     Explore New Places
                 </Typography>
-                <Autocomplete>
+                {/**Auto complete to be added  */}
+                <>
                     <div className={classes.search}>
                         <div className={classes.searchIcon} >
                             <SearchIcon />
                         </div>
                         <InputBase placeholder = "Serach new places...." classes = {{root: classes.inputRoot, input: classes.inputInput}}/>
                     </div>
-                </Autocomplete>
+                </>
             </Box>
         </Toolbar>
     </AppBar>
